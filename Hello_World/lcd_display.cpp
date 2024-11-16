@@ -18,3 +18,15 @@ void displayMessage(const char* message) {
     lcd.clear();
     lcd.print(message);
 }
+void displayData(const char* message, float data, const char* measure) {
+    lcd.clear();
+    lcd.print(message);
+    lcd.print(data);
+    lcd.print(" ");
+    lcd.print(measure);
+}
+
+
+void clearDisplay() {
+    lcd.clear();
+}
