@@ -19,13 +19,15 @@ void displayMessage(const char* message) {
     lcd.print(message);
 }
 void displayData(const char* message, float data, const char* measure) {
-    lcd.clear();
     lcd.print(message);
     lcd.print(data);
     lcd.print(" ");
     lcd.print(measure);
 }
 
+void changeRow(int row){
+  lcd.setCursor(0, row);
+}
 
 void clearDisplay() {
     lcd.clear();

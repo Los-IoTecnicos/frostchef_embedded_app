@@ -10,5 +10,6 @@ extern LiquidCrystal_I2C lcd;
 void initializeLCD();
 void displayMessage(const char* message);
 void displayData(const char* message, float data, const char* measure);
+void changeRow(int row);
 void clearDisplay();
 #endif

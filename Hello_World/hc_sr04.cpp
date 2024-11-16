@@ -1,5 +1,4 @@
 #include "hc_sr04.h"
-#include <Arduino.h>
 
 // Definir los pines para el sensor ultrasónico
 #define TRIGGER 26
@@ -9,7 +8,7 @@
 #define VELOCIDAD_SONIDO 0.034  
 
 // Función para inicializar el sensor ultrasónico
-void initializeSensor() {
+void initProximity() {
   pinMode(TRIGGER, OUTPUT); 
   pinMode(ECHO, INPUT); 
 }

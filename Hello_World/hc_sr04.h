@@ -2,11 +2,11 @@
 #define HC_SR04_H
 
 #include <LiquidCrystal_I2C.h>
-
+#include <Arduino.h>
 
 
 // Prototipos de las funciones
-void initializeSensor();
+void initProximity();
 float getDistance();
 
 #endif
