@@ -3,7 +3,7 @@
 
 #include <LiquidCrystal_I2C.h>
 
-// Declarar el objeto LCD (puedes cambiar la dirección I2C si es necesario)
+// Declarar el objeto LCD
 extern LiquidCrystal_I2C lcd;
 
 // Funciones relacionadas con el LCD

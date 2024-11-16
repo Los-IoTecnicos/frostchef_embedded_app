@@ -6,7 +6,7 @@
 
 
 // Prototipos de las funciones
-void inicializar_sensor();
-float obtener_distancia();
+void initializeSensor();
+float getDistance();
 
 #endif

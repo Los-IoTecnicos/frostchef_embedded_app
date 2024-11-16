@@ -9,12 +9,12 @@ void setup() {
     // Inicializar comunicación serial
     Serial.begin(9600);
 
-    inicializar_sensor();
+    initializeSensor();
 }
 
 void loop() {
     
-    float distancia = obtener_distancia();
-    displayData("Distance", distancia, "cm");
+    float distance = getDistance();
+    displayData("Dist: ", distance, "cm");
     delay(500);
 }

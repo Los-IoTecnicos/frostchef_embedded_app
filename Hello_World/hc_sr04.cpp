@@ -9,13 +9,13 @@
 #define VELOCIDAD_SONIDO 0.034  
 
 // Función para inicializar el sensor ultrasónico
-void inicializar_sensor() {
+void initializeSensor() {
   pinMode(TRIGGER, OUTPUT); 
   pinMode(ECHO, INPUT); 
 }
 
 // Función para obtener la distancia usando el sensor ultrasónico
-float obtener_distancia() {
+float getDistance() {
   // Inicializar el TRIGGER en bajo
   digitalWrite(TRIGGER, LOW);
   delayMicroseconds(2);
