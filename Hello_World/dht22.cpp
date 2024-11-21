@@ -1,6 +1,6 @@
 #include "dht22.h"
 // DHT22 Sensor Setup
-#define DHTPIN 18  // DHT sensor connected to GPIO 19
+#define DHTPIN 4  // DHT sensor connected to GPIO 4
 #define DHTTYPE DHT22
 
 DHT dht(DHTPIN, DHTTYPE);
